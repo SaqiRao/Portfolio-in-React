@@ -24,6 +24,7 @@ const Navbar = () => {
           <li><a href="#about" className="hover:text-teal-400">About</a></li>
           <li><a href="#projects" className="hover:text-teal-400">Projects</a></li>
           <li><a href="#contact" className="hover:text-teal-400">Contact</a></li>
+          <li><a href="#services" className="hover:text-teal-400">Services</a></li>
         </ul>
       </div>
 
@@ -33,6 +34,7 @@ const Navbar = () => {
           <li><a href="#about" className="hover:text-teal-400">About</a></li>
           <li><a href="#projects" className="hover:text-teal-400">Projects</a></li>
           <li><a href="#contact" className="hover:text-teal-400">Contact</a></li>
+          <li><a href="#services" className="hover:text-teal-400">Services</a></li>
         </ul>
       )}
     </nav>
