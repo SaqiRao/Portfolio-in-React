@@ -27,23 +27,21 @@ const Navbar = () => {
         {/* Desktop menu */}
       <ul className="hidden md:flex gap-6 text-white font-medium">
         <li>
-          {/* <a href="#about" className="hover:text-teal-400 transition">About</a> */}
           <Link to="/">Home</Link>
         </li>
         <li>
-          {/* <a href="#about" className="hover:text-teal-400 transition">About</a> */}
           <Link to="/about">About</Link>
         </li>
         <li>
-          {/* <a href="#projects" className="hover:text-teal-400 transition">Projects</a> */}
+          
           <Link to="/projects">Projects</Link>
         </li>
         <li>
-          {/* <a href="#services" className="hover:text-teal-400 transition">Services</a> */}
+          
           <Link to="/experience">Experience</Link>
         </li>
         <li>
-          {/* <a href="#contact" className="hover:text-teal-400 transition">Contact</a> */}
+        
           <Link to="/contact">Contact</Link>
         </li>
         
