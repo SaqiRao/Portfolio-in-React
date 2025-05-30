@@ -1,27 +1,32 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Service from './components/Service';
-import Experience from "./components/Experience";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import './App.css';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import Service from './pages/Service';
+import Experience from './pages/Experience';
 
 function App() {
   return (
-    <div className="bg-gray-900 text-white">
-     <Navbar />
-     <Hero />
-     <About />
-     <Experience />
-     <Projects />
-     <Service/>
-     <Contact />
-     <Footer />
-    </div>
+    <Router>
+      <div className="bg-gray-900 text-white">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/experience" element={<Experience />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

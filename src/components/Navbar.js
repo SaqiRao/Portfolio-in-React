@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { FaCode } from "react-icons/fa";
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -25,12 +25,29 @@ const Navbar = () => {
         </div>
 
         {/* Desktop menu */}
-        <ul className="hidden md:flex gap-6 text-white font-medium">
-          <li><a href="#about" className="hover:text-teal-400 transition">About</a></li>
-          <li><a href="#projects" className="hover:text-teal-400 transition">Projects</a></li>
-          <li><a href="#services" className="hover:text-teal-400 transition">Services</a></li>
-          <li><a href="#contact" className="hover:text-teal-400 transition">Contact</a></li>
-        </ul>
+      <ul className="hidden md:flex gap-6 text-white font-medium">
+        <li>
+          {/* <a href="#about" className="hover:text-teal-400 transition">About</a> */}
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          {/* <a href="#about" className="hover:text-teal-400 transition">About</a> */}
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          {/* <a href="#projects" className="hover:text-teal-400 transition">Projects</a> */}
+          <Link to="/projects">Projects</Link>
+        </li>
+        <li>
+          {/* <a href="#services" className="hover:text-teal-400 transition">Services</a> */}
+          <Link to="/experience">Experience</Link>
+        </li>
+        <li>
+          {/* <a href="#contact" className="hover:text-teal-400 transition">Contact</a> */}
+          <Link to="/contact">Contact</Link>
+        </li>
+        
+      </ul>
       </div>
 
       {/* Mobile menu dropdown */}
