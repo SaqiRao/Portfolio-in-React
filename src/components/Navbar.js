@@ -51,10 +51,12 @@ const Navbar = () => {
       {/* Mobile menu dropdown */}
       {isOpen && (
         <ul className="md:hidden px-6 pb-4 text-white flex flex-col gap-4 bg-gray-800">
-          <li><a href="#about" className="hover:text-teal-400 transition">About</a></li>
-          <li><a href="#projects" className="hover:text-teal-400 transition">Projects</a></li>
-          <li><a href="#services" className="hover:text-teal-400 transition">Services</a></li>
-          <li><a href="#contact" className="hover:text-teal-400 transition">Contact</a></li>
+          
+          <li><Link to="/">Home</Link></li>
+          <li> <Link to="/about">About</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
+          <li><Link to="/experience">Experience</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       )}
     </nav>
