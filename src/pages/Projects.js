@@ -44,7 +44,7 @@ const ProjectsPage = () => {
       {/* Page Header */}
       <header className="bg-black py-32 px-8 text-center shadow-md">
         <h1 className="text-5xl font-extrabold text-blue-500 mb-2">Projects</h1>
-        <p className="text-gray-400 text-lg">Featured WordPress Theme Development & Customizations</p>
+        <p className="text-gray-400 text-lg">Featured WordPress Theme Development & Customizationsgit init</p>
       </header>
 
       {/* Projects Section */}
