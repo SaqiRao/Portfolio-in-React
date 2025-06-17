@@ -1,10 +1,21 @@
 import React from "react";
 
 const experiences = [
+   {
+    role: "WordPress Developer",
+    company: "ZeeTech PVt",
+    duration: "Mar 2024 – Present",
+    location: "Lahore",
+    description:
+      "ZeeTech is a leader in digital transformation, specializing in innovative software solutions and AI advancements.",
+    points: [
+      "Empowering businesses with strategic initiatives and cutting-edge technology.",
+    ],
+  },
   {
     role: "Software Engineer",
     company: "LoopLeep Ventures",
-    duration: "Sep 2024 – Present",
+    duration: "Sep 2024 – Feb 2025",
     location: "Lahore",
     description:
       "Loopleep is a leader in digital transformation, specializing in innovative software solutions and AI advancements.",
