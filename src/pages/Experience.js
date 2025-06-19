@@ -64,7 +64,7 @@ const experiences = [
 
 const ExperiencePage = () => {
   return (
-    <main className="bg-gray-900 text-white min-h-screen font-sans">
+    <main className="bg-gradient-to-b from-gray-900 to-gray-800 text-white min-h-screen font-sans">
       {/* SEO */}
       <Helmet>
         <title>Experience | Saqib Sajjad</title>

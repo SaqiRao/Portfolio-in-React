@@ -8,35 +8,7 @@ const projects = [
     image: "images/zeetravelo.png", // make sure this image exists in your `public/images` folder
     link: "https://zeetravelo.com/",
   },
-  {
-    title: "Adforest – WordPress Theme",
-    description:
-      "Customized the Adforest Theme and its plugins to add new features and resolve bugs, enhancing functionality and user experience.",
-    image: "images/adforest.png",
-    link: "https://adforestpro.scriptsbundle.com/",
-  },
-  {
-    title: "Carspot – WordPress Theme",
-    description:
-      "Customized the Carspot Theme and its plugins to add new features and resolve bugs, enhancing functionality and user experience.",
-    image: "images/carspot.png",
-    link: "https://carspot.scriptsbundle.com/",
-  },
-  {
-    title: "Propertya – WordPress Theme",
-    description:
-      "Customized the Propertya Theme and its plugins to add new features and resolve bugs, enhancing functionality and user experience.",
-    image: "images/propertya.png",
-    link: "https://listing.propertya-wp.com/",
-  },
-  {
-    title: "DWT – Directory & Listing WordPress Theme",
-    description:
-      "Customized the DWT Theme and its plugins to add new features and resolve bugs, enhancing functionality and user experience.",
-    image: "images/dwt.png",
-    link: "https://listing.downtown-directory.com/",
-  },
-  {
+    {
     title: "Brikk – WordPress Theme",
     description:
       "Added a custom appointment booking system with date/day slot selection to the Brikk theme.",
@@ -63,6 +35,34 @@ const projects = [
       "Medical website for professional dermatology and skin treatment services in London.",
     image: "images/dermatology.png",
     link: "https://londondermatologyclinic.com/",
+  },
+  {
+    title: "Adforest – WordPress Theme",
+    description:
+      "Customized the Adforest Theme and its plugins to add new features and resolve bugs, enhancing functionality and user experience.",
+    image: "images/adforest.png",
+    link: "https://adforestpro.scriptsbundle.com/",
+  },
+  {
+    title: "Carspot – WordPress Theme",
+    description:
+      "Customized the Carspot Theme and its plugins to add new features and resolve bugs, enhancing functionality and user experience.",
+    image: "images/carspot.png",
+    link: "https://carspot.scriptsbundle.com/",
+  },
+  {
+    title: "Propertya – WordPress Theme",
+    description:
+      "Customized the Propertya Theme and its plugins to add new features and resolve bugs, enhancing functionality and user experience.",
+    image: "images/propertiya.png",
+    link: "https://listing.propertya-wp.com/",
+  },
+  {
+    title: "DWT – Directory & Listing WordPress Theme",
+    description:
+      "Customized the DWT Theme and its plugins to add new features and resolve bugs, enhancing functionality and user experience.",
+    image: "images/dwt.png",
+    link: "https://listing.downtown-directory.com/",
   },
   {
     title: "Law Offices Alex Poberesky, P.A.",
@@ -170,14 +170,13 @@ const ProjectsPage = () => {
                   <p className="text-sm text-gray-300 leading-snug">
                     {project.description}
                   </p>
-                 <a
-  href={project.link}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="mt-4 inline-block w-fit text-white font-medium [font-size:0.9rem] [line-height:0.8rem] px-4 py-3 rounded-md bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 hover:opacity-90 transition"
->
-  View Site
-</a>
+                 <a href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-fit mt-4 bg-gradient-to-r from-teal-500 to-blue-600 hover:from-blue-600 hover:to-purple-600 text-white px-4 py-2 rounded-lg shadow-lg font-semibold transition duration-300"
+                >
+                  View Site
+                </a>
 
                 </div>
               </div>
