@@ -6,7 +6,7 @@ const experiences = [
   {
     role: "WordPress Developer",
     company: "ZeeTech PVt",
-    duration: "Mar 2024 – Present",
+    duration: "Mar 2025 – Present",
     location: "Lahore",
     description:
       "ZeeTech is a leader in digital transformation, specializing in innovative software solutions and AI advancements.",
@@ -75,19 +75,10 @@ const ExperiencePage = () => {
       </Helmet>
 
       {/* Hero */}
-      <motion.header
-        initial={{ opacity: 0, y: -30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        className="bg-black py-20 px-32 text-center shadow-lg"
-      >
-        <h1 className="text-5xl font-extrabold text-blue-500 mb-3">
-          Experience
-        </h1>
-        <p className="text-gray-400 text-lg">
-          A journey through my professional career
-        </p>
-      </motion.header>
+      <header className="bg-black py-32 px-8 text-center shadow-md">
+        <h1 className="text-5xl font-extrabold text-white-500 mb-2">Experience</h1>
+        <p className="text-gray-400 text-lg">A journey through my professional career</p>
+      </header>
 
       {/* Experience Timeline */}
       <section className="py-20 px-6">
