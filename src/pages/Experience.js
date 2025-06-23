@@ -76,15 +76,15 @@ const ExperiencePage = () => {
 
       {/* Hero */}
       <header className="bg-black py-32 px-8 text-center shadow-md">
-        <h1 className="text-5xl font-extrabold text-white-500 mb-2">Experience</h1>
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-white-500 mb-4 tracking-tight">MY <span className="text-cyan-400">Experience</span></h1>
         <p className="text-gray-400 text-lg">A journey through my professional career</p>
       </header>
 
       {/* Experience Timeline */}
       <section className="py-20 px-6">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-16 text-white">
-            Career Timeline
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
+            Career <span className="text-cyan-400">Timeline</span>
           </h2>
 
           <div className="relative border-l-2 border-blue-500/30 ml-4 space-y-12">

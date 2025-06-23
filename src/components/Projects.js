@@ -27,9 +27,12 @@ const Projects = () => {
   return (
 <section id="projects" className="bg-gray-900 text-white py-20 px-6">
   <div className="max-w-7xl mx-auto">
-    <h2 className="text-4xl font-bold text-center mb-14">
-      Featured Projects
+    <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
+      Featured <span className="text-cyan-400">Projects</span>
     </h2>
+    <p className="text-center text-gray-300 mb-16 max-w-2xl mx-auto">
+          Featured WordPress Theme Development & Customizationsgit init
+        </p>
 
             <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (

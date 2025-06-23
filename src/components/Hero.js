@@ -17,10 +17,10 @@ const Hero = () => {
 
       <div className="relative z-10 text-center">
         <h2 className="text-4xl md:text-6xl font-extrabold mb-4 text-white leading-tight">
-          Hi, I'm <span className="text-blue-500">Saqib Rao</span>
+          Hi, I'm <span className="text-cyan-400">Saqib Rao</span>
         </h2>
 
-        <div className="text-xl md:text-2xl text-blue-400 font-medium">
+        <div className="text-xl md:text-2xl text-cyan-400 font-medium">
           <TypeAnimation
             sequence={[
               "Full-Stack Wordpress Developer", 2000,
@@ -41,7 +41,7 @@ const Hero = () => {
         <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
         {/* Download CV Button */}
           <a
-            href="/cv.pdf"
+            href="/resume/saqibsajjad.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gradient-to-r from-teal-500 to-blue-600 hover:from-blue-600 hover:to-purple-600 text-white px-6 py-3 rounded-full shadow-lg font-semibold transition duration-300"

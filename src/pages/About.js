@@ -19,7 +19,7 @@ const AboutPage = () => {
 
       {/* Hero Section */}
       <header className="bg-black py-32 px-8 text-center shadow-md">
-        <h1 className="text-5xl font-extrabold text-white-500 mb-2">About Me</h1>
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-white-500 mb-4 tracking-tight">About  <span className="text-cyan-400">Me</span></h1>
         <p className="text-gray-400 text-lg">
           WordPress Developer • PHP Enthusiast • REST API Integrator
         </p>
@@ -46,7 +46,7 @@ const AboutPage = () => {
 
             <p className="text-gray-300 text-lg leading-relaxed mb-4">
               I'm a passionate{" "}
-              <span className="text-blue-400 font-medium">
+              <span className="text-cyan-400 font-medium">
                 WordPress Themes & Plugins Developer
               </span>{" "}
               with over <strong>3 years of experience</strong> in crafting custom web solutions
@@ -67,7 +67,7 @@ const AboutPage = () => {
         </div>
       </section>
       <section className="py-16 px-6 bg-[#0d1117] text-white text-center">
-        <h2 className="text-3xl font-extrabold text-white-400 mb-4">My Tech Stack</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">My Tech <span className="text-cyan-400">Stack</span></h2>
         <p className="text-gray-400 text-base mb-10">
           Tools and technologies I regularly work with to build powerful, scalable solutions.
         </p>
@@ -85,8 +85,8 @@ const AboutPage = () => {
       </section>
       <section className="py-20 px-6">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl font-extrabold text-white-500 mb-8">
-          What Clients Say
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
+          What Clients  <span className="text-cyan-400">Say</span>
         </h2>
         <blockquote className="text-xl italic text-gray-600 dark:text-gray-300">
           “Saqib is one of the best developers I’ve worked with. He understood our business needs and delivered a custom plugin exactly as expected — on time and with top quality.”

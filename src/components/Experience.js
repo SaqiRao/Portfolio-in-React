@@ -64,7 +64,7 @@ const Experience = () => {
   return (
     <section id="experience" className="py-20 px-6 bg-gray-950 text-white">
       <div className="max-w-5xl mx-auto">
-        <h3 className="text-4xl font-bold text-center mb-14">Work Experience</h3>
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">Work <span className="text-cyan-400">Experience</span></h2>
 
         <div className="relative border-l border-gray-700 ml-4 space-y-10">
           {experiences.map((exp, index) => (
@@ -74,7 +74,7 @@ const Experience = () => {
             >
               <span className="absolute -left-4 top-6 w-4 h-4 bg-blue-500 rounded-full border-4 border-gray-950"></span>
               <div className="flex flex-col md:flex-row justify-between md:items-center mb-2">
-                <h4 className="text-xl md:text-2xl font-semibold text-blue-400">
+                <h4 className="text-xl md:text-2xl font-semibold text-cyan-400">
                   {exp.role}
                 </h4>
                 <span className="text-sm text-gray-400 mt-1 md:mt-0">
