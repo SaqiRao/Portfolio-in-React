@@ -151,37 +151,40 @@ const ProjectsPage = () => {
           <h2 className="text-3xl font-bold text-center mb-14 text-white">
             Featured Projects
           </h2>
-          <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
-            {projects.map((project, index) => (
-              <div
-                key={index}
-                className="relative rounded-3xl overflow-hidden shadow-lg group bg-gray-900 hover:shadow-2xl transition-shadow duration-500"
-              >
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110"
-                />
+<div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+  {projects.map((project, index) => (
+    <div
+      key={index}
+      className="relative rounded-3xl overflow-hidden shadow-lg group bg-gray-900 hover:shadow-2xl transition-shadow duration-500"
+    >
+      {/* Image */}
+      <img
+        src={project.image}
+        alt={project.title}
+        className="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110"
+      />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-100 group-hover:opacity-100 transition duration-500 p-6 flex flex-col justify-end">
-                  <h3 className="text-lg md:text-xl font-bold text-white mb-2">
-                    {project.title}
-                  </h3>
-                  <p className="text-sm text-gray-300 leading-snug">
-                    {project.description}
-                  </p>
-                 <a href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-fit mt-4 bg-gradient-to-r from-teal-500 to-blue-600 hover:from-blue-600 hover:to-purple-600 text-white px-4 py-2 rounded-lg shadow-lg font-semibold transition duration-300"
-                >
-                  View Site
-                </a>
+      {/* Overlay content - hidden initially, shown on hover */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-6 flex flex-col justify-end">
+        <h3 className="text-lg md:text-xl font-bold text-white mb-2">
+          {project.title}
+        </h3>
+        <p className="text-sm text-gray-300 leading-snug">
+          {project.description}
+        </p>
+        <a
+          href={project.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-fit mt-4 bg-gradient-to-r from-teal-500 to-blue-600 hover:from-blue-600 hover:to-purple-600 text-white px-4 py-2 rounded-lg shadow-lg font-semibold transition duration-300"
+        >
+          View Site
+        </a>
+      </div>
+    </div>
+  ))}
+</div>
 
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
     </main>
