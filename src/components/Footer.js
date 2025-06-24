@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-sm">
           © {new Date().getFullYear()}{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 tracking-tight font-semibold">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-blue-600 hover:from-blue-600 hover:to-purple-600 tracking-tight font-semibold">
             CodeWithSaqib
           </span>
           . All rights reserved.
