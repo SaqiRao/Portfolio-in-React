@@ -263,7 +263,7 @@ const ProjectsPage = () => {
 
       {/* Page Header */}
       <header className="bg-black py-32 px-8 text-center shadow-md">
-        <h1 className="text-4xl sm:text-5xl font-extrabold text-white-500 mb-4 tracking-tight">Projects</h1>
+        <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 tracking-tight">PROJECTS</h1>
         <p className="text-gray-400 text-lg">Featured WordPress Theme Development & Customizationsgit init</p>
       </header>
 
@@ -271,7 +271,7 @@ const ProjectsPage = () => {
       <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-14 text-white">
-            Featured  <span className="text-cyan-400">Projects</span>
+            FEATURED  <span className="text-cyan-400">Projects</span>
           </h2>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (

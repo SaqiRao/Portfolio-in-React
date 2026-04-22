@@ -42,6 +42,18 @@ const ContactPage = () => {
         <title>Contact | Saqib Sajjad</title>
       </Helmet>
 
+         {/* Hero */}
+        <header className="bg-black py-32 px-8 text-center shadow-md">
+          <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 tracking-tight">
+            CONTACT <span className="text-cyan-400">ME</span>
+          </h1>
+
+          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+            Have a project in mind, need a WordPress developer, or want to collaborate?
+            I’m always open to discussing new opportunities and creative ideas.
+          </p>
+        </header>
+
       <motion.section className="py-20 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8">
 

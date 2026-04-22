@@ -19,7 +19,7 @@ const AboutPage = () => {
 
       {/* Hero Section */}
       <header className="bg-black py-32 px-8 text-center shadow-md">
-        <h1 className="text-4xl sm:text-5xl font-extrabold text-white-500 mb-4 tracking-tight">About  <span className="text-cyan-400">Me</span></h1>
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-white-500 mb-4 tracking-tight">ABOUT  <span className="text-cyan-400">ME</span></h1>
         <p className="text-gray-400 text-lg">
           WordPress Developer • PHP Enthusiast • REST API Integrator
         </p>

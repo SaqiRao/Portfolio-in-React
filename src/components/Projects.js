@@ -29,7 +29,7 @@ const Projects = () => {
 <section id="projects" className="bg-gray-900 text-white py-20 px-6">
   <div className="max-w-7xl mx-auto">
     <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-      Featured <span className="text-cyan-400">Projects</span>
+      FEATURED  <span className="text-cyan-400">PROJECTS</span>
     </h2>
     <p className="text-center text-gray-300 mb-16 max-w-2xl mx-auto">
           Featured WordPress Theme Development & Customizationsgit init

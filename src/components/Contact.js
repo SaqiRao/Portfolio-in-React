@@ -11,7 +11,7 @@ const Contact = () => {
 
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-          Get In <span className="text-cyan-400">Touch</span>
+          GET IN <span className="text-cyan-400">TOUCH</span>
         </h2>
 
         <p className="text-center text-gray-300 mb-16 max-w-2xl mx-auto">

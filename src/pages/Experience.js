@@ -76,7 +76,7 @@ const ExperiencePage = () => {
 
       {/* Hero */}
       <header className="bg-black py-32 px-8 text-center shadow-md">
-        <h1 className="text-4xl sm:text-5xl font-extrabold text-white-500 mb-4 tracking-tight">MY <span className="text-cyan-400">Experience</span></h1>
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-white-500 mb-4 tracking-tight">MY <span className="text-cyan-400">EXPERIENCE</span></h1>
         <p className="text-gray-400 text-lg">A journey through my professional career</p>
       </header>
 
