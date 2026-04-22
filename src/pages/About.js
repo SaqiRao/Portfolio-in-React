@@ -49,7 +49,7 @@ const AboutPage = () => {
               <span className="text-cyan-400 font-medium">
                 WordPress Themes & Plugins Developer
               </span>{" "}
-              with over <strong>3 years of experience</strong> in crafting custom web solutions
+              with over <strong>4 years of experience</strong> in crafting custom web solutions
               using <strong>WordPress, PHP, and REST APIs</strong>.
             </p>
 

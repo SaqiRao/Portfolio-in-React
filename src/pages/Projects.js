@@ -120,6 +120,128 @@ const projects = [
     image: "images/buysellaccounting.png",
     link: "https://atmkt.smartdevpk.com/",
   },
+  
+  {
+    title: "Kondmatex",
+    description: "AI-based trading platform website with modern landing page and lead generation flow.",
+    image: "images/kondmatex.png",
+    link: "https://kondmatex.com/",
+  },
+  {
+    title: "Mind Trade AI",
+    description: "AI trading website designed for automated trading insights and user onboarding.",
+    image: "images/mindtrader.png",
+    link: "https://mindtrader.net/",
+  },
+  {
+    title: "Ailucren",
+    description: "Investment and trading platform website with modern UI and conversion-focused layout.",
+    image: "images/ailucren.png",
+    link: "https://ailucren.com/",
+  },
+  {
+    title: "Musk Boost AI",
+    description: "AI-powered trading website focused on crypto and automated strategies.",
+    image: "images/muskboostai.png",
+    link: "https://muskboostai.com/",
+  },
+  {
+    title: "Pro Trading Signal",
+    description: "Trading signals platform with performance-focused design and lead capture system.",
+    image: "images/pro-tradingsignal.png",
+    link: "https://pro-tradingsignal.com/",
+  },
+  {
+    title: "Evofinvex Union",
+    description: "Online trading platform website with financial services presentation and onboarding flow.",
+    image: "images/evofinvexunion.png",
+    link: "https://evofinvexunion.io/",
+  },
+  {
+    title: "MarketHype",
+    description: "Trading and investment website built for user engagement and conversions.",
+    image: "images/markethype.png",
+    link: "https://markethype.pro/",
+  },
+  {
+    title: "Aigees",
+    description: "AI trading and investment website with modern UI and responsive layout.",
+    image: "images/aigees.png",
+    link: "https://aigees.tech/",
+  },
+  {
+    title: "Bramley Fundex",
+    description: "Financial trading website designed for lead generation and user onboarding.",
+    image: "images/bramley-fundex.png",
+    link: "https://bramley-fundex.net/",
+  },
+  {
+    title: "Trixford",
+    description: "Investment platform website with trading-focused UI and conversion optimization.",
+    image: "images/trixford.png",
+    link: "https://trixford.com/",
+  },
+  {
+    title: "Kondmatex",
+    description: "AI-based trading platform website with modern landing page and lead generation flow.",
+    image: "images/kondmatex.png",
+    link: "https://kondmatex.com/",
+  },
+  {
+    title: "Mind Trade AI",
+    description: "AI trading website designed for automated trading insights and user onboarding.",
+    image: "images/mindtrader.png",
+    link: "https://mindtrader.net/",
+  },
+  {
+    title: "Ailucren",
+    description: "Investment and trading platform website with modern UI and conversion-focused layout.",
+    image: "images/ailucren.png",
+    link: "https://ailucren.com/",
+  },
+  {
+    title: "Musk Boost AI",
+    description: "AI-powered trading website focused on crypto and automated strategies.",
+    image: "images/muskboostai.png",
+    link: "https://muskboostai.com/",
+  },
+  {
+    title: "Pro Trading Signal",
+    description: "Trading signals platform with performance-focused design and lead capture system.",
+    image: "images/pro-tradingsignal.png",
+    link: "https://pro-tradingsignal.com/",
+  },
+  {
+    title: "Evofinvex Union",
+    description: "Online trading platform website with financial services presentation and onboarding flow.",
+    image: "images/evofinvexunion.png",
+    link: "https://evofinvexunion.io/",
+  },
+  {
+    title: "MarketHype",
+    description: "Trading and investment website built for user engagement and conversions.",
+    image: "images/markethype.png",
+    link: "https://markethype.pro/",
+  },
+  {
+    title: "Aigees",
+    description: "AI trading and investment website with modern UI and responsive layout.",
+    image: "images/aigees.png",
+    link: "https://aigees.tech/",
+  },
+  {
+    title: "Bramley Fundex",
+    description: "Financial trading website designed for lead generation and user onboarding.",
+    image: "images/bramley-fundex.png",
+    link: "https://bramley-fundex.net/",
+  },
+  {
+    title: "Trixford",
+    description: "Investment platform website with trading-focused UI and conversion optimization.",
+    image: "images/trixford.png",
+    link: "https://trixford.com/",
+  }
+
 ];
 
 
