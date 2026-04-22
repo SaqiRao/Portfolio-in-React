@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 const experiences = [
    {
@@ -96,12 +98,12 @@ const Experience = () => {
 
         {/* View More Button */}
         <div className="text-center mt-16">
-          <a
-            href="/experience"
-            className="inline-block bg-gradient-to-r from-teal-500 to-blue-600 hover:from-blue-600 hover:to-purple-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300"
-          >
-            View More Experience
-          </a>
+        <Link
+        to="/experience"
+        className="inline-block bg-gradient-to-r from-teal-500 to-blue-600 hover:from-blue-600 hover:to-purple-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300"
+        >
+        View More Experience
+        </Link>
         </div>
       </div>
     </section>
