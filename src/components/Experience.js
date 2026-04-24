@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const experiences = [
    {
     role: "WordPress Developer",
-    company: "ZeeTech PVt",
+    company: "ZeeTech Solutions",
     duration: "Mar 2024 – Present",
     location: "Lahore",
     description:

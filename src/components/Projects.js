@@ -2,85 +2,121 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const projects = [
-{
-    title: "Zeetravelo – Tour Booking Platform",
-    description: "Developed a tour booking website with dynamic package management, user dashboard, and location-based filtering.",
-    image: "images/zeetravelo.png", // make sure this image exists in your `public/images` folder
-    link: "https://zeetravelo.com/",
-  },
-    {
-    title: "Brikk – WordPress Theme",
-    description:
-      "Added a custom appointment booking system with date/day slot selection to the Brikk theme.",
-    image: "images/brikk.png",
-    link: "https://salleprivee.ca/",
-  },
   {
     title: "ApnaUgao – Shopify Store",
     description:
       "Implemented custom features, optimized performance, and integrated third-party apps to enhance the Shopify experience.",
     image: "images/apnaugao.png",
     link: "https://apnaugao.com/",
+    tags: ["Shopify", "Liquid", "JavaScript"],
+  },
+  {
+    title: "Carspot – WordPress Theme",
+    description:
+      "Customized the Carspot Theme and its plugins to add new features and resolve bugs, enhancing functionality and user experience.",
+    image: "images/carspot.png",
+    link: "https://carspot.scriptsbundle.com/",
+    tags: ["WordPress", "PHP", "jQuery"],
+  },
+  {
+    title: "Propertya – WordPress Theme",
+    description:
+      "Customized the Propertya Theme and its plugins to add new features and resolve bugs, enhancing functionality and user experience.",
+    image: "images/propertiya.png",
+    link: "https://listing.propertya-wp.com/",
+    tags: ["WordPress", "PHP", "Elementor", "Envoto Product"],
+  },
+  {
+    title: "DWT – Directory & Listing WordPress Theme",
+    description:
+      "Customized the DWT Theme and its plugins to add new features and resolve bugs, enhancing functionality and user experience.",
+    image: "images/dwt.png",
+    link: "https://listing.downtown-directory.com/",
+    tags: ["WordPress", "PHP", "Redux"],
   },
 ];
 
 const Projects = () => {
   return (
-<section id="projects" className="bg-gray-900 text-white py-20 px-6">
-  <div className="max-w-7xl mx-auto">
-    <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-      FEATURED  <span className="text-cyan-400">PROJECTS</span>
-    </h2>
-    <p className="text-center text-gray-300 mb-16 max-w-2xl mx-auto">
-          Featured WordPress Theme Development & Customizationsgit init
+    <section id="projects" className="bg-gray-900 text-white py-20 px-6">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
+          FEATURED <span className="text-cyan-400">PROJECTS</span>
+        </h2>
+
+        <p className="text-center text-gray-300 mb-16 max-w-2xl mx-auto">
+          Featured WordPress Theme Development & Customizations
         </p>
 
-            <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="space-y-10">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="relative rounded-3xl overflow-hidden shadow-lg group bg-gray-900 hover:shadow-2xl transition-shadow duration-500"
+              className="flex flex-col lg:flex-row items-center 
+              bg-gray-900 border border-white/10 
+              rounded-3xl overflow-hidden 
+              shadow-lg transition duration-300"
             >
-              {/* Image */}
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-64 object-cover transform transition-transform duration-500 group-hover:scale-110"
-              />
-
-              {/* Overlay content - hidden initially, shown on hover */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-6 flex flex-col justify-end">
-                <h3 className="text-lg md:text-xl font-bold text-white mb-2">
+              {/* Left Content */}
+              <div className="w-full lg:w-1/2 p-6 md:p-10">
+                <h3 className="text-xl md:text-2xl font-bold text-white mb-3">
                   {project.title}
                 </h3>
-                <p className="text-sm text-gray-300 leading-snug">
+
+                <p className="text-gray-300 mb-5">
                   {project.description}
                 </p>
+
+                {/* Tags (max 3) */}
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {project.tags.slice(0, 3).map((tag, i) => (
+                    <span
+                      
+                      className="text-xs px-3 py-1 rounded-full border border-white/10 bg-white/10 text-gray-200"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
+                {/* Button */}
                 <a
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-fit mt-4 bg-gradient-to-r from-teal-500 to-blue-600 hover:from-blue-600 hover:to-purple-600 text-white px-4 py-2 rounded-lg shadow-lg font-semibold transition duration-300"
+                  className="inline-block bg-gradient-to-r from-teal-500 to-blue-600 
+                  hover:from-blue-600 hover:to-purple-600 
+                  text-white px-5 py-2 rounded-lg font-semibold transition duration-300"
                 >
-                  View Site
+                  Visit Site
                 </a>
+              </div>
+
+              {/* Right Image */}
+              <div className="w-full lg:w-1/2">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-64 lg:h-full object-cover"
+                />
               </div>
             </div>
           ))}
         </div>
 
-    {/* Visit More Projects Button */}
-     <div className="text-center mt-16">
-         <Link
-          to="/projects"
-          className="inline-block bg-gradient-to-r from-teal-500 to-blue-600 hover:from-blue-600 hover:to-purple-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300"
-        >
-          View More Projects
-        </Link>
+        {/* View More Button */}
+        <div className="text-center mt-16">
+          <Link
+            to="/projects"
+            className="inline-block bg-gradient-to-r from-teal-500 to-blue-600 
+            hover:from-blue-600 hover:to-purple-600 
+            text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300"
+          >
+            View More Projects
+          </Link>
         </div>
-  </div>
-</section>
-
+      </div>
+    </section>
   );
 };
 
