@@ -39,7 +39,7 @@ const AboutPage = () => {
       </section>
 
       {/* PROFILE */}
-      <section className="py-20 px-6">
+      <section className="py-20 px-6 py-20 px-6 bg-gradient-to-b from-gray-900 to-gray-800">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
           {/* IMAGE */}
@@ -101,7 +101,7 @@ const AboutPage = () => {
       </section>
 
       {/* TECH STACK (UPGRADED) */}
-      <section className="py-20 px-6 text-center">
+      <section className="py-20 px-6 text-center py-20 px-6 bg-gradient-to-b from-gray-900 to-gray-800">
         <h2 className="text-4xl font-bold mb-6">
           My Tech <span className="text-cyan-400">Stack</span>
         </h2>
@@ -147,17 +147,16 @@ const AboutPage = () => {
       </section>
 
       {/* FINAL CTA */}
-      <section className="py-24 text-center">
+      <section className="py-24 text-center py-20 px-6 bg-gradient-to-b from-gray-900 to-gray-800">
         <h2 className="text-4xl font-bold mb-6">
           Let’s Build Something <span className="text-cyan-400">Great</span>
         </h2>
-
-        <a
-          href="#contact"
-          className="inline-block bg-gradient-to-r from-cyan-500 to-blue-600 px-8 py-3 rounded-full font-semibold hover:scale-105 transition"
-        >
-          Get a Quote
-        </a>
+          <Link
+            to="/contact"
+            className="inline-block bg-gradient-to-r from-cyan-500 to-blue-600 px-6 py-3 rounded-full font-semibold hover:scale-105 transition"
+          >
+            Get a Quote
+          </Link>
       </section>
 
     </main>

@@ -2,6 +2,13 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 const projects = [
+    {
+    title: "ApnaUgao – Shopify Store",
+    description: "Optimized Shopify store performance, integrated apps, improved UI/UX, and enhanced checkout flow, increasing engagement and conversions while ensuring smooth and scalable e-commerce functionality.",
+    image: "images/apnaugao.png",
+    link: "https://apnaugao.com/",
+    tags: ["Shopify", "E-commerce", "Liquid"],
+  },
   {
     title: "Carspot – WordPress Theme",
     description: "Customized Carspot theme with advanced features, resolved plugin conflicts, improved performance, and enhanced UI/UX, delivering a scalable and efficient classified listing experience for users and administrators.",
@@ -36,13 +43,6 @@ const projects = [
     image: "images/brikk.png",
     link: "https://salleprivee.ca/",
     tags: ["WordPress", "Booking", "Custom"],
-  },
-  {
-    title: "ApnaUgao – Shopify Store",
-    description: "Optimized Shopify store performance, integrated apps, improved UI/UX, and enhanced checkout flow, increasing engagement and conversions while ensuring smooth and scalable e-commerce functionality.",
-    image: "images/apnaugao.png",
-    link: "https://apnaugao.com/",
-    tags: ["Shopify", "E-commerce", "Liquid"],
   },
   {
     title: "HouseBuy.uk",
