@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const AboutPage = () => {
   const stats = [
-    { icon: <FaBriefcase />, num: "4+", label: "Years Experience" },
+    { icon: <FaBriefcase />, num: "3+", label: "Years Experience" },
     { icon: <FaProjectDiagram />, num: "50+", label: "Projects Completed" },
     { icon: <FaSmile />, num: "100%", label: "Client Satisfaction" },
     { icon: <FaHeadset />, num: "24/7", label: "Support" },
@@ -55,11 +55,11 @@ const AboutPage = () => {
           {/* TEXT */}
           <div>
             <h2 className="text-4xl font-bold mb-6">
-              Hi, I'm <span className="text-cyan-400">Saqib</span>
+              Hi, I'm <span className="text-cyan-400">Saqib Sajjad</span>
             </h2>
 
             <p className="text-gray-300 mb-4 leading-relaxed">
-              I’m a WordPress developer with 4+ years of experience building custom themes,
+              I’m a WordPress developer with 3+ years of experience building custom themes,
               plugins, and high-performance websites using PHP and REST APIs.
             </p>
 
