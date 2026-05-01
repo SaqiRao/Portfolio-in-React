@@ -16,6 +16,97 @@ const projects = [
     link: "https://carspot.scriptsbundle.com/",
     tags: ["WordPress", "PHP", "Theme"],
   },
+    {
+    "title": "Homiqo",
+    "description": "Real estate platform offering property listings with modern UI, responsive design, and optimized performance for seamless user experience.",
+    "image": "images/homiqo.png",
+    "link": "https://my-homiqo.com/",
+    "tags": ["WordPress", "Real Estate", "UI/UX"]
+  },
+  {
+    "title": "PropertyBnB",
+    "description": "Property rental and booking platform with advanced listing features, user-friendly interface, and scalable architecture.",
+    "image": "images/propertybnb.png",
+    "link": "https://propertybnb.smartdevpk.com/",
+    "tags": ["WordPress", "Booking", "PHP"]
+  },
+  {
+    "title": "eBay",
+    "description": "Global eCommerce marketplace with advanced product listings, bidding system, and high-performance scalable infrastructure.",
+    "image": "images/ebay.png",
+    "link": "https://www.ebay.com/",
+    "tags": ["eCommerce", "Marketplace", "Enterprise"]
+  },
+  {
+    "title": "UAE Car Lifts",
+    "description": "Corporate website showcasing car lift solutions with service listings, responsive design, and optimized performance.",
+    "image": "images/uaecarlifts.png",
+    "link": "https://uaecarlifts.com/",
+    "tags": ["Business", "WordPress", "Services"]
+  },
+  {
+    "title": "Dawadose",
+    "description": "Healthcare and pharmacy platform providing medical products and information with a clean and user-friendly interface.",
+    "image": "images/dawadose.png",
+    "link": "https://www.dawadose.com/",
+    "tags": ["Healthcare", "eCommerce", "Medical"]
+  },
+  {
+    "title": "The Firm Advertising",
+    "description": "Digital marketing agency website focused on branding, advertising services, and modern UI/UX design.",
+    "image": "images/thefirmadv.png",
+    "link": "https://thefirmadv.com/",
+    "tags": ["Agency", "Marketing", "UI/UX"]
+  },
+  {
+    "title": "BizBuySell",
+    "description": "Online marketplace for buying and selling businesses with advanced search and listing features.",
+    "image": "images/bizbuysell.png",
+    "link": "https://www.bizbuysell.com/",
+    "tags": ["Marketplace", "Business", "Listings"]
+  },
+  {
+    "title": "Lorepa",
+    "description": "Professional services website with clean layout, optimized performance, and responsive design.",
+    "image": "images/lorepa.png",
+    "link": "https://lorepa.ca/",
+    "tags": ["Business", "Corporate", "UI/UX"]
+  },
+  {
+    "title": "Mayo Clinic",
+    "description": "Leading healthcare platform providing medical information, services, and patient resources with high usability standards.",
+    "image": "images/mayoclinic.png",
+    "link": "https://www.mayoclinic.org/",
+    "tags": ["Healthcare", "Medical", "Enterprise"]
+  },
+  {
+    "title": "Eileen",
+    "description": "Modern eCommerce website with product showcase, responsive design, and smooth user experience.",
+    "image": "images/eileen.png",
+    "link": "https://eileen.pk/",
+    "tags": ["eCommerce", "Retail", "UI/UX"]
+  },
+  {
+    "title": "Desi Europe",
+    "description": "Community-based platform connecting users with cultural content, services, and resources.",
+    "image": "images/desieurope.png",
+    "link": "https://desieurope.com/",
+    "tags": ["Community", "Platform", "Web"]
+  },
+  {
+    "title": "Global Work Stuff",
+    "description": "Job and work-related platform providing resources, listings, and career opportunities.",
+    "image": "images/globalworkstuff.png",
+    "link": "https://globalworkstuff.com/",
+    "tags": ["Jobs", "Platform", "Listings"]
+  },
+  {
+    "title": "UAE Car Lifts (Staging)",
+    "description": "Staging version of UAE Car Lifts website used for testing features, updates, and performance improvements.",
+    "image": "images/uaecarlifts-staging.png",
+    "link": "https://staging-uaecar.uaecarlifts.com/",
+    "tags": ["Staging", "Testing", "WordPress"]
+  },
   {
     title: "Propertya – WordPress Theme",
     description: "Enhanced Propertya real estate theme with custom features, optimized layout design, improved listing functionality, and resolved backend issues to provide a seamless and engaging property browsing experience.",
