@@ -27,12 +27,11 @@ const projects = [
     tags: ["WordPress", "PHP", "Elementor", "Envoto Product"],
   },
   {
-    title: "DWT – Directory & Listing WordPress Theme",
-    description:
-      "Customized the DWT Theme and its plugins to add new features and resolve bugs, enhancing functionality and user experience.",
-    image: "images/dwt.png",
-    link: "https://listing.downtown-directory.com/",
-    tags: ["WordPress", "PHP", "Redux"],
+    "title": "Eileen",
+    "description": "Modern eCommerce website with product showcase, responsive design, and smooth user experience.",
+    "image": "images/eileen.png",
+    "link": "https://eileen.pk/",
+    "tags": ["eCommerce", "Liquid", "Shopify"]
   },
 ];
 

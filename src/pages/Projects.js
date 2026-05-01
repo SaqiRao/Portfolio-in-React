@@ -10,6 +10,13 @@ const projects = [
     tags: ["Shopify", "E-commerce", "Liquid"],
   },
   {
+  "title": "Eileen",
+  "description": "Modern eCommerce website with product showcase, responsive design, and smooth user experience.",
+  "image": "images/eileen.png",
+  "link": "https://eileen.pk/",
+  "tags": ["eCommerce", "Liquid", "Shopify"]
+},
+  {
     title: "Carspot – WordPress Theme",
     description: "Customized Carspot theme with advanced features, resolved plugin conflicts, improved performance, and enhanced UI/UX, delivering a scalable and efficient classified listing experience for users and administrators.",
     image: "images/carspot.png",
@@ -29,13 +36,6 @@ const projects = [
     "image": "images/propertybnb.png",
     "link": "https://propertybnb.smartdevpk.com/",
     "tags": ["WordPress", "Booking", "PHP"]
-  },
-  {
-    "title": "eBay",
-    "description": "Global eCommerce marketplace with advanced product listings, bidding system, and high-performance scalable infrastructure.",
-    "image": "images/ebay.png",
-    "link": "https://www.ebay.com/",
-    "tags": ["eCommerce", "Marketplace", "Enterprise"]
   },
   {
     "title": "UAE Car Lifts",
@@ -80,13 +80,6 @@ const projects = [
     "tags": ["Healthcare", "Medical", "Enterprise"]
   },
   {
-    "title": "Eileen",
-    "description": "Modern eCommerce website with product showcase, responsive design, and smooth user experience.",
-    "image": "images/eileen.png",
-    "link": "https://eileen.pk/",
-    "tags": ["eCommerce", "Retail", "UI/UX"]
-  },
-  {
     "title": "Desi Europe",
     "description": "Community-based platform connecting users with cultural content, services, and resources.",
     "image": "images/desieurope.png",
@@ -103,7 +96,7 @@ const projects = [
   {
     "title": "UAE Car Lifts (Staging)",
     "description": "Staging version of UAE Car Lifts website used for testing features, updates, and performance improvements.",
-    "image": "images/uaecarlifts-staging.png",
+    "image": "images/uaecarlifts.png",
     "link": "https://staging-uaecar.uaecarlifts.com/",
     "tags": ["Staging", "Testing", "WordPress"]
   },
