@@ -70,7 +70,6 @@ const Projects = () => {
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.slice(0, 3).map((tag, i) => (
                     <span
-                      
                       className="text-xs px-3 py-1 rounded-full border border-white/10 bg-white/10 text-gray-200"
                     >
                       {tag}
