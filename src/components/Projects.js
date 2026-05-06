@@ -3,6 +3,15 @@ import { Link } from "react-router-dom";
 
 const projects = [
   {
+    title: "Truck Insurance Quotation Form — WordPress Plugin",
+    description:
+      "A custom WordPress plugin that collects trucking insurance quotes through a clean 7-step form. Features VIN auto-fill using the NHTSA government API via WordPress AJAX. Automatically generates a PDF report and emails it to the admin on every submission. Includes a VIN search shortcode to look up any submitted vehicle's full details. Built with PHP, jQuery, MySQL, and the WordPress Plugin API.",
+    image: "images/truck-insurance.png",
+    link: "https://xtramilecoverage.com/",
+    tags: ["PHP", "WordPress Plugin", "NHTSA VIN API","AJAX", "PDF Generation"],
+
+  },
+  {
     title: "ApnaUgao – Shopify Store",
     description:
       "Implemented custom features, optimized performance, and integrated third-party apps to enhance the Shopify experience.",
